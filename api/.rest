@@ -1,0 +1,18 @@
+POST  http://localhost:81/task27_2/api/menu/where HTTP/1.1
+
+{
+    "ids":"4,7,99,5,6"
+}
+###
+
+POST http://localhost:81/task27_2/api/special/create HTTP/1.1
+content-type: application/json
+
+{
+"title": "eeeee",
+"discount":33,
+"path": "path"
+}
+
+ 
+###
